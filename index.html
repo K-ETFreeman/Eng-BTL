@@ -165,41 +165,43 @@
 <body>
 
   
+  <header class="header">
+  <div class="header__outer">
   <div class="wrapper">
-  <div class="headline">
-    <div class="headline__links">
-      <address class="headline__contacts">
-        <a href="tel:+78000000000">
-          <svg class="small-icon">
-            <use xlink:href="#icon-tele"></use>
-          </svg>
-          8 (800) 000-00-00
+    <div class="headline">
+      <div class="headline__links">
+        <address class="headline__contacts">
+          <a href="tel:+78000000000">
+            <svg class="small-icon">
+              <use xlink:href="#icon-tele"></use>
+            </svg>
+            8 (800) 000-00-00
+          </a>
+          <a href="tel:+74957400598">
+            <svg class="small-icon">
+              <use xlink:href="#icon-tele"></use>
+            </svg>
+            + 7 (495) 740-05-98
+          </a>
+          <a href="mailto:info@1btl.ru">
+            <svg class="small-icon">
+              <use xlink:href="#icon-mail"></use>
+            </svg>
+            info@1btl.ru
+          </a>
+        </address>
+        <a class="headline__recall" href="/">
+          <div class="svgcontainer">
+            <svg>
+              <use xlink:href="#icon-handset"></use>
+            </svg>
+          </div>
+          Request a call
         </a>
-        <a href="tel:+74957400598">
-          <svg class="small-icon">
-            <use xlink:href="#icon-tele"></use>
-          </svg>
-          + 7 (495) 740-05-98
-        </a>
-        <a href="mailto:info@1btl.ru">
-          <svg class="small-icon">
-            <use xlink:href="#icon-mail"></use>
-          </svg>
-          info@1btl.ru
-        </a>
-      </address>
-      <a class="headline__recall" href="/">
-        <div class="svgcontainer">
-          <svg>
-            <use xlink:href="#icon-handset"></use>
-          </svg>
-        </div>
-        Request a call
-      </a>
+      </div>
     </div>
   </div>
 </div>
-<header class="header">
   <div class="wrapper">
     <div class="header__inner">
 
@@ -328,13 +330,17 @@
     
 <section class="digital">
   <picture class="digital__bg">
-    <source type="image/webp" srcset="img/bg.webp"/><img src="img/bg.jpg"/>
+    <source type="image/avif" media="(min-width: 769px)" srcset="img/bg.avif"/>
+    <source type="image/webp" media="(min-width: 769px)" srcset="img/bg.webp"/>
+    <source type="image/jpg" media="(min-width: 769px)" srcset="img/bg.jpg"/>
+    <source type="image/webp" srcset="img/bgmob.webp"/>
+    <source type="image/jpg" srcset="img/bgmob.jpg"/><img src="img/bg.jpg"/>
   </picture>
   <div class="wrapper">
     <div class="digital__content">
-      <h1 class="digital__title">DIGITAL MARKETING</h1>
-      <div class="digital__bgtext bgt">DIGITAL</div>
-      <div class="digital__subtitle">An internet marketing strategy personalized for your business in Russia. Be a partner with an digital marketing company that actually knows how digital marketing works in Russia. Our strategies are proven to work.<br/>We provide our clients with the results they are looking for.</div>
+      <h1 class="digital__title">BTL</h1>
+      <div class="digital__bgtext bgt">BTL</div>
+      <div class="digital__subtitle">With more than 10 years of experience in marketing and advertising in Russia, we know how to help your company succeed. If you’re looking to increase your sales, introduce your company or product into the Russian market, Clever marketing is ready to expand your brand into a new area. <br/>We deliver the best results for our clients!</div>
       <button class="button button_blue digital__button"><a href="/">CONTACT US</a></button>
     </div>
   </div>
@@ -833,7 +839,7 @@
 
 
         <div class="footer__container footer__container-logo">
-          <div class="footer__logoblock logo logo_footer">
+          <div class="footer__logoblock logo">
             <svg>
               <use xlink:href="#clever-logo"></use>
             </svg>
